@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Facebook user",
+    "uid": "61563112608003",
+    "time": "00:12:07 - 04/05/2025",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61563112608003"
+  },
+  {
+    "name": "Facebook user",
+    "uid": "100016272393918",
+    "time": "00:12:09 - 04/05/2025",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100016272393918"
+  },
+  {
+    "name": "Manh Hoang",
+    "uid": "61555067162048",
+    "time": "12:44:52 - 06/05/2025",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61555067162048"
+  },
+  {
+    "name": "Anh Kiet",
+    "uid": "61572135665820",
+    "time": "21:56:49 - 09/05/2025",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61572135665820"
+  }
+]

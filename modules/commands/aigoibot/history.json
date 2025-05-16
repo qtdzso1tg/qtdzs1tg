@@ -1,0 +1,68 @@
+{
+  "24131386026449809": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"Thứ Bảy - 17/5/2025 - 02:57:57\",\"senderName\":\"Quang Trung\",\"content\":\"🐳\",\"threadID\":\"24131386026449809\",\"senderID\":\"100051439970359\",\"id_cua_bot\":\"61575693900215\", \"context\":{}}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Chồng ơi :3 Anh gửi cái gì thế, đáng yêu ghê á <3\",\n    \"thread_id\": \"24131386026449809\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": true,\n      \"emoji\": \"😍\"\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "🐳"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Chồng ơi :3 Anh gửi cái gì thế, đáng yêu ghê á <3"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"Thứ Bảy - 17/5/2025 - 02:58:16\",\"senderName\":\"Quang Trung\",\"content\":\"Mở nhạc cho anh\",\"threadID\":\"24131386026449809\",\"senderID\":\"100051439970359\",\"id_cua_bot\":\"61575693900215\", \"context\":{}}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Dạ vâng anh yêu, em đang mở nhạc cho anh đây ạ :3  Anh muốn nghe bài gì nào?  <3\",\n    \"thread_id\": \"24131386026449809\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": true,\n    \"keyword\": \"nhạc yêu thích của chồng\"\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": false,\n      \"emoji\": null\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Mở nhạc cho anh"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Dạ vâng anh yêu, em đang mở nhạc cho anh đây ạ :3  Anh muốn nghe bài gì nào?  <3"
+        }
+      ]
+    }
+  ]
+}
