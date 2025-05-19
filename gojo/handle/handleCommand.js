@@ -194,16 +194,16 @@ if(command) {
          var permssion = 0;
 var threadInfoo = (threadInfo.get(threadID) || await Threads.getInfo(threadID));
     const find = threadInfoo.adminIDs.find(el => el.id == senderID);
-    if (NDH.includes(senderID.toString())) permssion = 3;
-    else if (ADMINBOT.includes(senderID.toString())) permssion = 2;
+    if (ADMINBOT.includes(senderID.toString())) permssion = 3;
+    else if (NDH.includes(senderID.toString())) permssion = 2;
     else if (!ADMINBOT.includes(senderID) && find) permssion = 1;
   var quyenhan = ""
     if (command.config.hasPermssion == 1 ){
       quyenhan = "Quản Trị Viên"
     } else if (command.config.hasPermssion == 2 ) {
-      quyenhan = "ADMIN_BOT"
+      quyenhan = "Người Thuê Bot"
     } else if(command.config.hasPermssion == 3) {
-      quyenhan = "Chúa"
+      quyenhan = "Admin Bot"
  }
   if (command.config.hasPermssion > permssion) return api.sendMessage(`👤 Người dùng: ${ten}\n⛔ Chỉ có ${quyenhan} mới được sử dụng lệnh ${command.config.name} \n⚠️ Bạn không có quyền sử dụng lệnh này\n────────────────────\n⏰ Time: ${Tm}`, event.threadID, async (err, info) => {
   await new Promise(resolve => setTimeout(resolve, 15 * 1000));
